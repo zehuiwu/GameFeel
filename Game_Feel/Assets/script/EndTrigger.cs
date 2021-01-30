@@ -8,6 +8,7 @@ public class EndTrigger : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("hello");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
